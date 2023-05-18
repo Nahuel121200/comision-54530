@@ -1,0 +1,114 @@
+header {
+    text-align: center;
+    height: 250px;
+}
+
+.body-index {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.insta-footer {
+    background-position: center;
+    height: 100px;
+
+}
+
+.imagen-fondo {
+    background-image: url("../assets/img/mae-mu-I7A_pHLcQK8-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+}
+
+.imagen-fondo h2 {
+    color: orangered;
+    font-family: baskerville old face;
+
+
+}
+
+.foto img {
+    height: 250px;
+
+}
+
+header h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    color: orangered;
+}
+
+.body-products {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.fondo-producto {
+    background-image: url("../assets/img/fondop-productos.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.imagen-logo {
+    background-position: center;
+    height: 250px;
+}
+
+.lista-index {
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: black;
+    color: orangered;
+
+}
+
+.main-promos {
+    background-image: url("../assets/img/fuego\ 1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 2000px;
+}
+
+.main-promos h2 {
+    color: orangered;
+}
+
+.section-pose h3 {
+    color: orangered;
+    letter-spacing: 3px;
+}
+
+.section-zeus h3 {
+    color:orangered;
+    letter-spacing: 3px;
+}
+.section-3 h2{
+    color: aqua;
+}
+.main-pedidos{
+    background-image: url("../assets/img/bici\ entrega.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1500px;
+}
+.section-pedido1 img{
+    height: 500px;
+}
+.main-contactos-redes{
+    background-image: url("../assets/img/bar\ fondo.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+}
+.section1-contactos img{
+    height: 100px;
+}
+.logo-pedidos{
+    height: 250px;
+}
