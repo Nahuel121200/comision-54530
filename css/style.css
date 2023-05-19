@@ -1,6 +1,32 @@
-header {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    justify-content: center;
     text-align: center;
-    height: 250px;
+    padding-bottom: 5px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: rgb(255, 0, 0);
+    list-style: none;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: orangered;
+
+
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(223, 111, 7, 0.815);
 }
 
 .body-index {
@@ -58,13 +84,7 @@ header h1 {
     height: 250px;
 }
 
-.lista-index {
-    display: inline-flex;
-    justify-content: space-between;
-    background-color: black;
-    color: orangered;
 
-}
 
 .main-promos {
     background-image: url("../assets/img/fuego\ 1.jpg");
@@ -84,31 +104,37 @@ header h1 {
 }
 
 .section-zeus h3 {
-    color:orangered;
+    color: orangered;
     letter-spacing: 3px;
 }
-.section-3 h2{
+
+.section-3 h2 {
     color: aqua;
 }
-.main-pedidos{
+
+.main-pedidos {
     background-image: url("../assets/img/bici\ entrega.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 1500px;
 }
-.section-pedido1 img{
+
+.section-pedido1 img {
     height: 500px;
 }
-.main-contactos-redes{
+
+.main-contactos-redes {
     background-image: url("../assets/img/bar\ fondo.jpg");
     background-position: center;
     background-size: cover;
     height: 1000px;
 }
-.section1-contactos img{
+
+.section1-contactos img {
     height: 100px;
 }
-.logo-pedidos{
+
+.logo-pedidos {
     height: 250px;
 }
