@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 header h1 {
     justify-content: center;
     text-align: center;
@@ -13,7 +14,6 @@ header h1 {
     font-family: 'Staatliches', cursive;
     font-size: 55px;
     letter-spacing: 2px;
-    /* font-family: 'Righteous', cursive; */
 }
 
 .navbar {
@@ -45,141 +45,103 @@ header div img {
     background-position: center;
     width: 100%;
     height: 1000px;
-
+    background-repeat: no-repeat;
 }
-.div-main{
+
+.div-main {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 1000px;
 }
+
 main div h2 {
     font-family: 'Righteous', cursive;
-    color:rgb(247, 55, 7);
+    color: rgb(247, 55, 7);
     font-size: 100px;
     border-width: 5px;
     border-style: groove;
-    border-color: rgb(247, 96, 8); 
+    border-color: rgb(247, 96, 8);
     text-align: center;
     text-shadow: 7px 7px black;
 }
-footer{
+
+footer {
     background-color: rgb(255, 123, 0);
     display: flex;
     justify-content: space-between;
     padding: 10px;
 }
-footer nav ul li{
+
+footer nav ul li {
     font-family: 'Righteous', cursive;
     font-size: 15px;
     list-style: none;
 }
 
-.imagen-footer{
+.imagen-footer {
     height: 100px;
 }
-/* .body-index {
+
+/* HASTA ACA ES EL INDEX */
+.header-producto {
+    width: 100%;
+}
+
+.titulo-productos {
+    justify-content: center;
     text-align: center;
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: rgb(255, 123, 0);
+    font-family: 'Staatliches', cursive;
+    font-size: 55px;
+    letter-spacing: 2px;
 }
 
-.insta-footer {
-    background-position: center;
-    height: 100px;
-
+.imagen-producto1 {
+    height: 200px;
+    justify-items: center;
+    grid-area: thor;
 }
 
-
-
-.imagen-fondo h2 {
-    color: orangered;
-    font-family: baskerville old face;
-
-
+.imagen-producto2 {
+    height: 150px;
+    justify-items: center;
 }
 
-.foto img {
-    height: 250px;
-
+.imagen-producto3 {
+    height: 200px;
+    justify-items: center;
 }
 
-header h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: black;
-    color: orangered;
+.imagen-producto4 {
+    height: 200px;
+    justify-items: center;
 }
 
-.body-products {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+.imagen-producto5 {
+    height: 200px;
+    justify-items: center;
 }
 
-.fondo-producto {
-    background-image: url("../assets/img/fondop-productos.jpg");
-    background-position: center;
-    background-size: cover;
+.parrafo-producto {
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    color: rgb(236, 109, 25);
+    text-shadow: 2px 2px rgb(7, 6, 6);
 }
 
-.imagen-logo {
-    background-position: center;
-    height: 250px;
+.hero {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/img/greta-scholderle-moller-Ux5tId0y0sc-unsplash.jpg);
+    display: grid;}
+
+.footer-productos{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
 }
-
-
-
-.main-promos {
-    background-image: url("../assets/img/fuego\ 1.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 2000px;
-}
-
-.main-promos h2 {
-    color: orangered;
-}
-
-.section-pose h3 {
-    color: orangered;
-    letter-spacing: 3px;
-}
-
-.section-zeus h3 {
-    color: orangered;
-    letter-spacing: 3px;
-}
-
-.section-3 h2 {
-    color: aqua;
-}
-
-.main-pedidos {
-    background-image: url("../assets/img/bici\ entrega.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 1500px;
-}
-
-.section-pedido1 img {
-    height: 500px;
-}
-
-.main-contactos-redes {
-    background-image: url("../assets/img/bar\ fondo.jpg");
-    background-position: center;
-    background-size: cover;
-    height: 1000px;
-}
-
-.section1-contactos img {
-    height: 100px;
-}
-
-.logo-pedidos {
-    height: 250px;
-} */
