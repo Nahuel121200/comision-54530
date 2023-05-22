@@ -56,7 +56,7 @@ header div img {
     height: 1000px;
 }
 
-main div h2 {
+.index-h2 {
     font-family: 'Righteous', cursive;
     color: rgb(247, 55, 7);
     font-size: 100px;
@@ -133,14 +133,83 @@ footer nav ul li {
     text-shadow: 2px 2px rgb(7, 6, 6);
 }
 
+
+
+.footer-productos {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* hasta aca esya lo de productos */
+
+.main-promos {
+    background-image: url(../assets/img/fuego\ 1.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+.titulo-h2-promos {
+    text-shadow: 2px 2px rgba(15, 116, 175, 0.911);
+    font-size: 40px;
+    color: rgb(255, 123, 0);
+    text-align: center;
+    letter-spacing: 2px;
+    
+}
+
+.descripcion-promos {
+    font-family: 'Staatliches', cursive;
+    color: darkorange;
+    font-size: 25px;
+    text-shadow: 2px 2px rgba(15, 116, 175, 0.911);
+    letter-spacing: 1px;
+}
+
+.h2-papas {
+    font-family: 'Staatliches', cursive;
+    color: darkorange;
+    font-size: 30px;
+    text-shadow: 2px 2px rgba(15, 116, 175, 0.911);
+    letter-spacing: 1px;
+}
+.imagen-compra-ya{
+    height: 150px;
+}
 .hero {
     object-fit: cover;
     width: 100%;
     height: 100%;
-    background-image: url(../assets/img/greta-scholderle-moller-Ux5tId0y0sc-unsplash.jpg);
-    display: grid;}
-
-.footer-productos{
+    display: grid;
+justify-items: center;
+align-items: center;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+}
+.div-area-pose{
+grid-column-start: 1;
+grid-column-end: 2;
+}
+.div-area-zeus{
+grid-column-start: 3;
+grid-column-end: 4;
+}
+.div-todospapas{
+grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 2;
+grid-row-end: 3;
+justify-items: center;
+}
+.boton-compra{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-items: center;
+    align-items: center;
+}
+.footer-promos{
     display: flex;
     justify-content: space-between;
     padding: 10px;
