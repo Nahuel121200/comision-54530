@@ -364,8 +364,62 @@ footer nav ul li {
     color: rgb(255, 123, 0);
     text-shadow: 2px 2px rgb(7, 1, 1);
 }
-.footer-pedidos{
+
+.footer-pedidos {
     display: flex;
     justify-content: space-between;
     padding: 10px;
+}
+
+/* HASTA ACA LA PAGINA DE PEDIDOS */
+
+.main-contactos {
+    background-image: url(../assets/img/bar\ fondo.jpg);
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    background-position: center;
+}
+
+.div-queremos-h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Play', sans-serif;
+    font-size: 25px;
+    color: orangered;
+    text-shadow: -3px -3px black;
+    padding: 20px;
+    align-items: end;
+}
+
+.caja-comentarios {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 300px;
+}
+
+.legend-caja {
+    font-family: 'Play', sans-serif;
+    color: orangered;
+    text-shadow: 2px 2px black;
+    height: 100px;
+}
+
+.label-caja {
+    height: 100px;
+}
+
+.enviar-caja {
+    width: 100px;
+}
+.h2-contactos{ 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+    font-family:  'Play', sans-serif;
+    color: rgb(255, 123, 0);
+    text-shadow: 2px -2px black;
+    font-size: 20px;
 }

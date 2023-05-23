@@ -7,65 +7,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The God's Burgers - Contactos y redes</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@700&family=Righteous&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <h1 class="titulo">THE GOD'S BURGERS</h1>
         <nav>
-            <li>
-                <a href="../index.html">INICIO</a>
-            </li>
-            <li>
-                <a href="./productos.html">PRODUCTOS</a>
-            </li>
-            <li>
-                <a href="./promos.html">PROMOS</a>
-            </li>
-            <li>
-                <a href="./pedidos.html">PEDIDOS</a>
-            </li>
-            <li>
-                <a href="contactos y redes.html">CONTACTO Y REDES</a>
-            </li>
+            <ul class="navbar">
+                <li>
+                    <a href="../index.html">INICIO</a>
+                </li>
+                <li>
+                    <a href="./productos.html">PRODUCTOS</a>
+                </li>
+                <li>
+                    <a href="./promos.html">PROMOS</a>
+                </li>
+                <li>
+                    <a href="./pedidos.html">PEDIDOS</a>
+                </li>
+                <li>
+                    <a href="contactos y redes.html">CONTACTO Y REDES</a>
+                </li>
+            </ul>
             <div>
-                <img class="imagen-logo" src="../assets/img/Logo-sin-fondo.PNG" alt="">
+                <img src="../assets/img/Logo-sin-fondo.PNG" alt="imagen del logo">
             </div>
         </nav>
     </header>
-    <main class="main-contactos-redes">
-        <section>
-            <div>
-                <h2>
-                    ¿QUEREMOS SABER QUE TE PARECIO NUESTRAS HAMBURGUESAS?
-                </h2>
-            </div>
-            <div>
-                <form action="">
-                    <fieldset>
-                        <legend>CAJA DE COMENTARIOS</legend>
-                        <label for="comentario"></label>
-                        <input type="text" id="comentario" placeholder="Hace tu comentario Aqui">
-                    </fieldset>
-                    <a href="nahuelh_77@hotmail.com:"></a> <input type="submit" placeholder="ENVIAR">
-                </form>
-            </div>
-        </section>
-        <section class="section1-contactos">
-            <div>
-                <h2>
-                    ¡CONTACTANOS EN NUESTRAS REDES!
-                </h2>
-            </div>
-            <div>
-                <a href="Https://wa.me/5493425901485" target="_blank"><img src="../assets/img/logo whatssap.png"
-                        alt="logo de whatssap"></a>
-            </div>
-            <div>
-                <a href="https://www.instagram.com/thegodsburgers.sf/" target="_blank"><img
-                        src="../assets/img/instagram.png" alt="logo en instagram"></a>
-            </div>
-        </section>
+    <main class="main-contactos">
+        <div class="div-queremos-h2">
+            <h2>
+                ¿QUEREMOS SABER QUE TE PARECIO NUESTRAS HAMBURGUESAS?
+            </h2>
+        </div>
+        <div class="caja-comentarios">
+            <form action="">
+                <fieldset>
+                    <legend class="legend-caja">CAJA DE COMENTARIOS</legend>
+                    <label for="comentario"></label>
+                    <input class="label-caja" type="text" id="comentario" placeholder="Hace tu comentario Aqui">
+                </fieldset>
+                <a href="nahuelh_77@hotmail.com:"></a> <input class="enviar-caja" type="submit" placeholder="ENVIAR">
+            </form>
+        </div>
+        <div class="h2-contactos">
+            <h2>
+                ¡GRACIAS POR CONFIAR EN NOSOTROS
+                SI TE GUSTAN NUESTRAS HAMBURGUESAS
+                SERAS RECONOCIDOS POR LOS DIOSES!
+            </h2>
+            <h2>
+                ¡EN EL PIE TE DEJAMOS NUESTRAS REDES!
+            </h2>
+        </div>
     </main>
     <footer>
         <nav>
@@ -86,7 +85,15 @@
                     <a href="contactos y redes.html">CONTACTO Y REDES</a>
                 </li>
             </ul>
-
+        </nav>
+        <div>
+            <a class="ancla-footer" href="Https://wa.me/5493425901485" target="_blank"><img class="imagen-footer"
+                    src="../assets/img/logo whatssap.png" alt="logo de whatssap"></a>
+        </div>
+        <div>
+            <a class="ancla-footer" href="https://www.instagram.com/thegodsburgers.sf/" target="_blank"><img
+                    class="imagen-footer" src="../assets/img/instagram.png" alt="logo en instagram"></a>
+        </div>
     </footer>
 </body>
 
