@@ -103,7 +103,7 @@ footer nav ul li {
 .imagen-producto1 {
     height: 200px;
     justify-items: center;
-    grid-area: thor;
+    
 }
 
 .imagen-producto2 {
@@ -134,7 +134,7 @@ footer nav ul li {
 }
 
 .grids {
-    background-image: url(../assets/img/greta-scholderle-moller-Ux5tId0y0sc-unsplash.jpg);
+background-image: url(../assets/img/greta-scholderle-moller-Ux5tId0y0sc-unsplash.jpg);
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -421,5 +421,107 @@ footer nav ul li {
     font-family:  'Play', sans-serif;
     color: rgb(255, 123, 0);
     text-shadow: 2px -2px black;
-    font-size: 20px;
+    font-size: 18px;
+}
+/* EMPEZAMOS CON MEDIA QUERIES */
+
+@media(max-width:700px){
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+    .grids{
+        grid-template-columns: 1fr;
+        grid-template-rows:300px 300px 300px 300px 300px 300px;
+    }
+    .parrafo-producto{
+        font-size: 20px;
+        flex-wrap: wrap;
+    }
+    .div-area-thor{
+        flex-direction: column;
+    }
+    .div-area-thor img{
+        height: 250px;
+    }
+    .div-area-odin{
+        flex-direction: column-reverse;
+    }
+    .div-area-odin img{
+        height: 250px;
+    }
+    .div-area-blot{
+        flex-direction: column;
+    }
+    .div-area-blot img{
+        height: 250px;
+    }
+    .div-area-freyja{
+        flex-direction: column-reverse;
+    }
+    .div-area-freyja img{
+        height: 250px;
+    }
+    .div-area-loki{
+        flex-direction: column;
+    }
+    .div-area-loki img{
+        height: 250px;
+    }
+    .main-productos{
+        background-position: center;
+        width: auto;
+        height: auto;
+    }
+    .h2-productos{
+        font-size: 20px;
+    }
+    .div-area-papas{
+        flex-direction: column;
+    }
+    .div-area-papas img{
+        height: 250px;
+    }
+    .footer-productos{
+        align-items: center;
+        justify-content: space-between;
+    }
+    .imagen-footer{
+        height: 50px;
+    }
+}
+
+@media(max-width:375px){
+.logos-footer{
+    display: flex;
+    flex-direction: column;
+}
+.footer-productos{
+    justify-content: center;
+    gap: 5px;
+}
+.grids{
+    grid-template-columns: 300px;
+}
+.parrafo-producto{
+    font-size: 16px;
+}
+.div-area-thor img{
+    height: 190px;
+}
+.div-area-odin img{
+    height: 190px;
+}
+.div-area-blot img{
+    height: 190px;
+}
+.div-area-freyja img{
+    height: 190px;
+}
+.div-area-loki img{
+    height: 190px;
+}
+.div-area-papas img{
+    height: 190px;
+}
 }
