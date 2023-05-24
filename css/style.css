@@ -425,7 +425,29 @@ background-image: url(../assets/img/greta-scholderle-moller-Ux5tId0y0sc-unsplash
 }
 /* EMPEZAMOS CON MEDIA QUERIES */
 
+@media(max-width:820px){
+    .index-h2{
+        font-size: 50px;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .imagen-fondo-index{
+        height: 700px;
+    }
+}
+
 @media(max-width:700px){
+    .index-h2{
+        font-size: 35px;
+        text-align: center;
+    }
+    .div-main{
+        align-items: flex-start;
+        padding-top: 100px;
+    }
+    .imagen-fondo-index{
+        height: 500px;
+    }
     .navbar{
         flex-direction: column;
         align-items: center;
