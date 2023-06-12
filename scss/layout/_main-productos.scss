@@ -1,0 +1,124 @@
+.grids {
+    background-image: url(../assets/img/greta-scholderle-moller-Ux5tId0y0sc-unsplash.jpg);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px 400px 400px 400px 400px 400px;
+}
+
+.div-area-thor {
+    @include flex;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    img {
+        height: 350px;
+    }
+
+    p {
+        font-family: 'Righteous', cursive;
+        font-size: 30px;
+        color: $background-principal;
+        text-shadow: 2px 2px rgb(7, 6, 6);
+        flex-wrap: wrap;
+    }
+}
+
+.div-area-odin {
+    @include flex;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    img {
+        height: 350px;
+    }
+
+    p {
+        font-family: 'Righteous', cursive;
+        font-size: 30px;
+        color: $background-principal;
+        text-shadow: 2px 2px rgb(7, 6, 6);
+        flex-wrap: wrap;
+    }
+}
+
+.div-area-blot {
+    @include flex;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    img {
+        height: 350px;
+    }
+
+    p {
+        font-family: 'Righteous', cursive;
+        font-size: 30px;
+        color: $background-principal;
+        text-shadow: 2px 2px rgb(7, 6, 6);
+        flex-wrap: wrap;
+    }
+}
+
+.div-area-freyja {
+    @include flex;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+    img {
+        height: 350px;
+    }
+
+    p {
+        font-family: 'Righteous', cursive;
+        font-size: 30px;
+        color: $background-principal;
+        text-shadow: 2px 2px rgb(7, 6, 6);
+        flex-wrap: wrap;
+    }
+}
+
+.div-area-loki {
+    @include flex;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+
+    img {
+        height: 400px;
+    }
+
+    p {
+        font-family: 'Righteous', cursive;
+        font-size: 30px;
+        color: $background-principal;
+        text-shadow: 2px 2px rgb(7, 6, 6);
+        flex-wrap: wrap;
+    }
+}
+
+.div-area-papas {
+    @include flex;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+
+    h2 {
+        font-family: 'Staatliches', cursive;
+        color: $background-principal;
+        font-size: 40px;
+        text-shadow: 2px 2px $text-sombra;
+        letter-spacing: 1px;
+        flex-wrap: wrap;
+    }
+}

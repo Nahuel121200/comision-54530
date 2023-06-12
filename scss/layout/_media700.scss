@@ -1,0 +1,144 @@
+@media(max-width:700px) {
+    .div-index {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .imagen-fondo-index {
+        align-items: center;
+        padding-top: 100px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grids {
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 300px 300px 300px 300px 300px;
+    }
+
+    .div-area-thor {
+        flex-direction: column;
+
+        p {
+            font-size: 20px;
+            flex-wrap: wrap;
+        }
+    }
+
+    .div-area-thor img {
+        height: 250px;
+
+        p {
+            font-size: 20px;
+            flex-wrap: wrap;
+        }
+    }
+
+    .div-area-odin {
+        flex-direction: column-reverse;
+
+        p {
+            font-size: 20px;
+            flex-wrap: wrap;
+        }
+    }
+
+    .div-area-odin img {
+        height: 250px;
+
+        p {
+            font-size: 20px;
+            flex-wrap: wrap;
+        }
+    }
+
+    .div-area-blot {
+        flex-direction: column;
+
+        p {
+            font-size: 20px;
+            flex-wrap: wrap;
+        }
+    }
+
+    .div-area-blot img {
+        height: 250px;
+
+        p {
+            font-size: 20px;
+            flex-wrap: wrap;
+        }
+    }
+
+    .div-area-freyja {
+        flex-direction: column-reverse;
+
+        p {
+            font-size: 20px;
+            flex-wrap: wrap;
+        }
+    }
+
+    .div-area-freyja img {
+        height: 250px;
+
+        p {
+            font-size: 20px;
+            flex-wrap: wrap;
+        }
+    }
+
+    .div-area-loki {
+        flex-direction: column;
+
+        p {
+            font-size: 20px;
+            flex-wrap: wrap;
+        }
+    }
+
+    .div-area-loki img {
+        height: 250px;
+
+        p {
+            font-size: 20px;
+            flex-wrap: wrap;
+        }
+    }
+
+    .main-productos {
+        background-position: center;
+        width: auto;
+        height: auto;
+    }
+
+    .h2-productos {
+        font-size: 20px;
+    }
+
+    .div-area-papas {
+        flex-direction: column;
+    }
+
+    .div-area-papas img {
+        height: 250px;
+    }
+
+    .footer-productos {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .imagen-footer {
+        height: 50px;
+    }
+
+    .div-index {
+        h2 {
+            font-size: 40px;
+        }
+    }
+}

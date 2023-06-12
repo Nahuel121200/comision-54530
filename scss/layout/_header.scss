@@ -1,0 +1,36 @@
+header {
+    h1 {
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        background-color: $background-principal;
+        font-family: 'Staatliches', cursive;
+        font-size: 55px;
+        letter-spacing: 2px;
+    }
+
+    div {
+        display: flex;
+        justify-content: center;
+        background-color: $background-principal;
+    }
+
+    img {
+        height: 250px;
+    }
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: $background-secundario;
+    color: $background-principal;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 10px;
+    box-shadow: $background-principal;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    letter-spacing: 1px;
+}

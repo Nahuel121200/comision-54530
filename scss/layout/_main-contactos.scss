@@ -1,0 +1,30 @@
+.main-contactos {
+    background-image: url(../assets/img/bar\ fondo.jpg);
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    background-position: center;
+
+    div {
+        display: flex;
+        justify-content: center;
+        font-family: 'Play', sans-serif;
+        font-size: 25px;
+        color: $background-tercero;
+        text-shadow: -3px -3px $background-secundario;
+        padding: 20px;
+        align-items: end;
+    }
+}
+
+.h2-contactos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+    font-family: 'Play', sans-serif;
+    color: $background-principal;
+    text-shadow: 2px -2px $background-secundario;
+    font-size: 18px;
+    flex-wrap: wrap;
+}

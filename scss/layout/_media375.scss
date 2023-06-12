@@ -1,0 +1,70 @@
+@media(max-width:375px) {
+    .div-index{
+        h2{
+            font-size: 35px;
+        }
+    }
+    .logos-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-productos {
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .grids {
+        grid-template-columns: 300px;
+    }
+
+    .div-area-thor img {
+        height: 190px;
+        p{
+            font-size: 16px;
+        }
+    }
+
+    .div-area-odin img {
+        height: 190px;
+        p{
+            font-size: 16px;
+        }
+    }
+
+    .div-area-blot img {
+        height: 190px;
+        p{
+            font-size: 16px;
+        }
+    }
+
+    .div-area-freyja img {
+        height: 190px;
+        p{
+            font-size: 16px;
+        }
+    }
+
+    .div-area-loki img {
+        height: 190px;
+        p{
+            font-size: 16px;
+        }
+    }
+
+    .div-area-papas img {
+        height: 190px;
+        h2{
+            font-size: 20px;
+        }
+    }
+    .main-contactos{
+        height: 800px;
+    }
+    .h2-contactos{
+        h2{
+            padding-bottom: 3px;
+        }
+    }
+}

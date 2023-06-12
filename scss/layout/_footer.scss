@@ -1,0 +1,16 @@
+footer {
+    background-color: $background-principal;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+    li {
+        font-family: 'Righteous', cursive;
+        font-size: 15px;
+        list-style: none;
+    }
+}
+
+.imagen-footer {
+    height: 100px;
+}

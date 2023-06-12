@@ -1,0 +1,23 @@
+.caja-comentarios {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 300px;
+}
+
+fieldset {
+    legend {
+        font-family: 'Play', sans-serif;
+        color: $background-tercero;
+        text-shadow: 2px 2px $background-secundario;
+        height: 100px;
+    }
+
+    input {
+        height: 100px;
+    }
+}
+
+.enviar-caja {
+    width: 100px;
+}
