@@ -141,4 +141,40 @@
             font-size: 40px;
         }
     }
+    .hero{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        .div-area-pose{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+        .div-area-zeus{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+        .div-todospapas{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+    }
+    .div-h2-pedidos{
+        h2{
+            text-align: center;
+            font-size: 30px;
+            color: $background-tercero;
+        }
+        }
+        .div-pedidos-enlace{
+            height: 300px;
+            padding: 0px;
+            img{
+                height: 200px;
+            }
+        }
 }

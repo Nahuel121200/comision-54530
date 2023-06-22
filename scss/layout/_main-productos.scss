@@ -1,11 +1,15 @@
-.grids {
-    background-image: url(../assets/img/greta-scholderle-moller-Ux5tId0y0sc-unsplash.jpg);
+.main-productos {
+    background-image: url(../assets/img/fondop-productos.jpg);
     width: 100%;
     height: 100%;
+    background-position: center;
     object-fit: cover;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 400px 400px 400px 400px 400px 400px;
+
+    .grids {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 400px 400px 400px 400px 400px 400px;
+    }
 }
 
 .div-area-thor {

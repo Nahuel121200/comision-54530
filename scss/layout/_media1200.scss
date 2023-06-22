@@ -1,0 +1,28 @@
+@media(max-width:1200px){
+    .hero{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .div-area-pose{
+img{
+    height: 400px;
+}
+    }
+    .div-area-zeus{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        img{
+            height: 400px;
+        }
+    }
+    .div-todospapas{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .boton-compra{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        
+    }
+
+}

@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-/* 
+
 header h1 {
     justify-content: center;
     text-align: center;
@@ -135,9 +135,10 @@ footer nav ul li {
 }
 
 .grids {
-    background-image: url(../assets/img/greta-scholderle-moller-Ux5tId0y0sc-unsplash.jpg);
+    background-image: url(../assets/img/fondo-2.png);
     width: 100%;
     height: 100%;
+    background-position: center;
     object-fit: cover;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -308,7 +309,7 @@ footer nav ul li {
     grid-row-start: 2;
     grid-row-end: 3;
     justify-items: center;
-} */
+}
 
 .boton-compra {
     grid-column-start: 2;
